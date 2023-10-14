@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Cormorant+Garamond:wght@500&family=Righteous&display=swap');
+
+
+ body{
+    /* background: linear-gradient(90deg, #e74c3c, #9b59b6, #3498db); */
+    /* background: linear-gradient(90deg, #27ae60, #75c9e6); */
+    /* background: linear-gradient(90deg, #95a5a6, #d5dbdb); */
+    /* background: linear-gradient(90deg, #000000, #59656d); */
+    /* background: linear-gradient(90deg, #000000, #8e44ad); */
+    /* background: linear-gradient(90deg, #000000, #2c3e50); */
+    background: linear-gradient(90deg, #000000, #333333);
+
+
+
+
+
+
+
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1{
+    /* text-align: center; */
+    font-size: 45px;
+    margin-bottom: 29px;
+    margin-top: 80px;
+    color: white;
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.zeros{
+    display: flex;
+
+}
+.zeros div{
+    margin: 30px;
+    padding: 4px 20px 4px 20px;
+    font-size: 42px;
+    background-color:lightslategray;
+    border-radius: 10px;
+    width: 80px;
+}
+button{
+    margin: 20px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gray;
+    border: 1.5px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color:cadetblue;
+    /* background-color:white; */
+    color: black;
+    
+}
+
+
+@media (max-width: 490px){
+    h1{
+        font-size: 26px;
+    }
+    button{
+        font-size: 19px;
+        margin: 14px;
+    }
+    .zeros div{
+        font-size: 20px;
+        margin: 16px;
+    }
+
+}
